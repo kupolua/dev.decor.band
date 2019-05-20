@@ -1,0 +1,933 @@
+﻿
+<!DOCTYPE html>
+<!--[if IE 8 ]>
+<html lang="en" class="ie8">
+<![endif]-->
+<!--[if (gt IE 8)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<!-- Meta -->
+<meta charset="utf-8">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<title>Zien Documentation</title>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+<link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700" rel="stylesheet">
+<!-- Usage: font-family: 'Lobster Two', cursive; -->
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/doc.css">
+</head>
+<body>
+<header class="navbar navbar-default navbar-fixed-top" role="banner">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<nav class="collapse navbar-collapse" role="navigation">
+<ul class="nav navbar-nav navbar-right">
+<li>
+<a href="mailto:raventhemez@gmail.com" target="_top">Support</a>
+</li>
+</ul>
+</nav>
+<!-- Navigation end -->
+</div>
+<!-- Container end -->
+</header>
+<!-- Header end -->
+<div id="content" class="sub-content">
+<div class="container">
+<div class="col-md-12">
+<h1 class="super text-center"><span style="font-family: 'Lobster Two', cursive;font-style:italic;">Zien</span></h1>
+<p class="lead text-center">Zien - Creative Portfolio Landing Page template documentation</p>
+</div>
+</div>
+</div>
+<div class="container bs-docs-container text-dark">
+<div class="row">
+<div class="col-md-3">
+<div class="bs-sidebar hidden-print affix-top" role="complementary">
+<ul class="nav bs-sidenav">
+<li>
+<a href="#getting-started">Getting Started</a>
+<ul class="nav">
+<li>
+<a href="#welcome">
+Welcome
+</a>
+</li>
+<li>
+<a href="#downloading-avoir">
+Downloading Zien
+</a>
+</li>
+<li>
+<a href="#installation">
+Installation
+</a>
+</li>
+<li>
+<a href="#setting-your-fonts">
+Setting your fonts
+</a>
+</li>
+<li>
+<a href="#general-layout">
+General Layout
+</a>
+</li>
+</li>
+</ul>
+</li>
+<!-- li header end -->
+<li>
+<a href="#layout">Layout</a>
+<ul class="nav">
+<li>
+<a href="#sections">
+Sections
+</a>
+</li>
+<li>
+<a href="#mt_header">
+Header Block
+</a>
+</li>
+<li>
+<a href="#mt_banner">
+Banner Block
+</a>
+</li>
+<li>
+<a href="#mt_portfolio">
+Portfolio Block
+</a>
+</li>
+<li>
+<li>
+<a href="#mt_blog">
+Blog Block
+</a>
+</li>
+<li>
+<a href="#mt_contact_section">
+Contact Block
+</a>
+</li>
+<li>
+<a href="#portfolio_details">
+Portfolio Detail Block
+</a>
+</li>
+<li>
+<a href="#mt_footer">
+Footer Block
+</a>
+</li>
+<li>
+<a href="#mt_contact_form">
+Contact Form
+</a>
+</li>
+
+</ul>
+</li>
+<li>
+<a href="#using-avoir">Using Zien</a>
+<ul class="nav">
+                           
+<li>
+<a href="#changing-logo">
+Changing logo
+</a>
+</li>
+                            
+</ul>
+</li>
+<!-- li header end -->
+</ul>
+</div>
+</div>
+<div class="col-md-9">
+<div class="bs-docs-section">
+<h1 id="getting-started">
+Getting started
+</h1>
+<h2 id="welcome">
+Welcome
+</h2>
+<p>
+Hello there! Thanks for buying Zien. This is a template with solid design especially crafted to help you built your Landing page for your Work Showcasing.
+<br><br>
+The <strong>concept</strong> of this template is Personal portfolio. This template uses <a href="http://getbootstrap.com/">Twiter's Bootstrap Framework</a> and a <a href="http://www.ionicons.com/">custom font icons set</a> It is highly recomended that you are familiar in a way with at least HTML5 / CSS3 / Basic JQuery.
+<br><br>
+So let's jump directly to it, and start everything from scratch.
+</p>
+<h2 id="downloading-avoir">
+Downloading Zien
+</h2>
+<p>
+Once you download the zip file, unzip it. You should have the following folders &amp; files by now.
+<table class="table table-bordered">
+<thead>
+<tr>
+<th>Folder</th>
+<th style="text-align:left">Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Documentation</td>
+<td style="text-align:left">Documentation and help instructions.</td>
+</tr>
+<tr>
+<td>ZienTemplate Folder</td>
+<td style="text-align:left">Zien Template Folder</td>
+</tr>
+
+</tbody>
+</table>
+</p>
+<h2 id="installation">
+Installation
+</h2>
+<p>
+Install the template via ftp :
+<ol>
+<li>
+Connect to your website host, using some of many FTP clients, for example FileZilla.
+</li>
+<li>
+Go to your default server folder, and copy Zien into that folder.
+</li>
+</ol>
+</p>
+<h2 id="setting-your-fonts">
+Setting your fonts
+</h2>
+<p>
+To use google fonts, head over to <a href="https://www.google.com/fonts">Google's Fonts</a> and add whichever font you want to your collection. Once you finished, follow the instructions and place the generated link in your HTML's file <code>&lt;head&gt;</code> tag.
+<br>
+The link should look like this :
+<pre><code>&lt;link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'&gt;</code></pre>
+Next, go to style.css <em>(css/style.css)</em>, and replace the font family, with the font family you just copied.
+<pre><code> body {
+font-family: 'Your Font', verdana;
+font-weight: 400;
+} </code></pre>
+</p>
+<h2 id="general-layout">
+General layout
+</h2>
+<p>
+Every page is built with the latest standards of HTML5, validated with the W3C HTML Validation tool and it is compatible with the latest Twitter's Bootstrap.
+<br><br>
+All pages have 3 main parts:
+<ol>
+<li>
+Navigation menu 1 ( For Landing page )
+</li>
+<li>
+Navigation menu 2 ( For Blog Page and Single Post Page )
+</li>
+<li>
+Sections with content (Including splash images/sections)
+</li>
+<li>
+Footer
+</li>
+</ol>
+</p>
+<h1 id="layout">Layout</h1>
+<h2 id="menu">
+Navigation Menus For Landing Page
+</h2>
+<p>
+The template's basic menu both desktop and mobile for Landing page or Home Page :
+</p>
+<p><span style="color: red;">*</span>Note: The Resolution for logo should be 150x50px</p>
+
+<pre>
+<code>
+&lt;nav&gt;<br />
+&lt;div class="navbar-wrapper" id="navigation"&gt;<br />
+&lt;div class="navbar navbar-default navbar-fixed-top reveal-menu-home" role="navigation"&gt;<br />
+&lt;div class="container nav-container"&gt;<br />
+&lt;div class="row"&gt;<br />
+&lt;div class="col-md-12"&gt;<br />
+&lt;div class="navbar-header"&gt;<br />
+&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"&gt;<br />
+&lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;<br />
+&lt;span class="icon-bar"&gt;&lt;/span&gt;<br />
+&lt;span class="icon-bar"&gt;&lt;/span&gt;<br />
+&lt;span class="icon-bar"&gt;&lt;/span&gt;<br />
+&lt;/button&gt;<br />
+&lt;div class="logo"&gt;<br />
+&lt;a href="#"&gt;&lt;img class="text-highlight" src="images/logo.png" alt="Logo" &gt;&lt;/img&gt;&lt;/a&gt;<br />
+&lt;/div&gt;<br />
+&lt;/div&gt; &lt;!-- .navbar-header --&gt;<br />
+&lt;div class="navbar-collapse collapse"&gt;<br />
+&lt;ul class="nav navbar-nav navbar-right"&gt;<br />
+&lt;li class="active"&gt;&lt;a href="index.html#home"&gt;Home&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href="#mt_about_me"&gt;About&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href="#mt_portfolio"&gt;Portfolio&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href="mt_services"&gt;Services&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href="#mt_blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href="#mt_pricing"&gt;Pricing&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href="#mt_contact"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;<br />
+&lt;/ul&gt;<br />
+&lt;/div&gt;<br />
+&lt;/div&gt; <br />
+&lt;/div&gt; <br />
+&lt;/div&gt; <br />
+&lt;/div&gt; <br />
+&lt;/div&gt; <br />
+&lt;/nav&gt;
+</code>
+</pre>
+</p>
+
+<h2 id="sections">
+Sections
+</h2>
+<p>
+To setup a section use:
+<pre>
+<code>
+&lt;section id="YOUR-SECTION ID"&gt;
+&lt;/section&gt;
+</code>
+</pre>
+</p>
+
+<h2 id="mt_header">
+Header Block
+</h2>
+<p>
+    <pre>
+        <code>
+&lt;header id="mt_header"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="navigation"&gt;
+                &lt;div class="logo"&gt;
+                    &lt;a href="index.html"&gt;
+                        &lt;img src="images/logo.png" alt="Logo" class="img-responsive no_sticky_logo"&gt;
+                        &lt;img src="images/logo-sticky.png" alt="Logo" class="img-responsive sticky_logo"&gt;
+                    &lt;/a&gt;
+                &lt;/div&gt;&lt;!--logo--&gt;
+                &lt;nav class="main-nav"&gt;
+                    &lt;div class="menu-btn"&gt;
+                        &lt;button&gt;
+                            &lt;div class="button_container menu-button"&gt;
+                                &lt;span class="top"&gt;&lt;/span&gt;
+                                &lt;span class="middle"&gt;&lt;/span&gt;
+                                &lt;span class="bottom"&gt;&lt;/span&gt;
+                            &lt;/div&gt;
+                        &lt;/button&gt;
+                    &lt;/div&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;a class="nav-link js-scroll-trigger" href="index.html#home"&gt;Home&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="nav-link js-scroll-trigger" href="index.html#mt_about_me"&gt;About&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="nav-link js-scroll-trigger" href="index.html#mt_portfolio"&gt;Portfolio&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="nav-link js-scroll-trigger" href="index.html#mt_blog"&gt;Blog&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="nav-link js-scroll-trigger" href="index.html#mt_contact_section"&gt;Contact Us&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/nav&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/header&gt;
+        </code>
+    </pre>
+</p>
+
+<h2 id="mt_banner">
+Banner Block
+</h2>
+<p>
+    <pre>
+        <code>
+&lt;section id="mt_banner" style="background-image: url(images/home-banner.jpg)"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="banner-wrapper"&gt;
+                &lt;div class="banner-caption"&gt;
+                    &lt;h1 class="wow fadeInUp" data-wow-delay="0.1">DIGITAL CREATIVE&lt;span&gt;AGENCY&lt;/span>&lt;/h1&gt;
+                    &lt;p>We bring ide@s to life&lt;/p&gt;
+                    &lt;a href="#mt_portfolio" class="mt_btn_color banner_down">&lt;i&gt;class="ion-ios-arrow-thin-down">&lt;/i>&lt;/a&gt;
+                &lt;/div>&lt;!--banner-caption--&gt;
+            &lt;/div>&lt;!--banner-wrapper--&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+        </code>
+    </pre>
+</p>
+
+<h2 id="mt_about_me">
+About Me Block
+</h2>
+<p>
+    <pre>
+        <code>
+&lt;section id="mt_about_me"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-sm-3"&gt;
+                &lt;div class="about_heading"&gt;
+                    &lt;h2&gt;About Us&lt;/h2&gt;
+                    &lt;span&gt;Creative Design&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="col-xs-12 col-sm-4"&gt;
+                &lt;div class="mt_about_me"&gt;
+                    &lt;h3&gt;Design is not Easy to Think&lt;/h3&gt;
+                    &lt;p&gt;
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. page
+                        when looking at its layout.
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. 
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. content of a page.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;div class="col-xs-12 col-sm-4 col-md-4"&gt;
+                &lt;div class="about_img wow fadeInUp" data-wow-delay="0.3" &gt;
+                    &lt;img src="images/about-me.jpg" alt="About Me"&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="grey-svg"&gt;
+        &lt;svg viewBox="0 0 2880 454.884" enable-background="new 0 0 2880 454.884" xml:space="preserve"&gt;
+            &lt;polygon points="2880,454.884 0,454.884 0,0 1895.16,454.356 2880,311.572 "&gt;&lt;/polygon&gt;
+        &lt;/svg&gt;
+    &lt;/div&gt;&lt;!--white-svg--&gt;
+&lt;/section&gt;
+        </code>
+    </pre>
+</p>
+
+<h2 id="portfolio_details">
+Portfolio Block
+</h2>
+<p>
+    <pre>
+        <code>
+&lt;section id="mt_portfolio" class="gallery-section gallery-page"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-md-12"&gt;
+                &lt;div class="mt_filter"&gt;
+                    &lt;ul class="list-inline text-center filter"&gt;
+                        &lt;li&gt;
+                            &lt;a class="active" href="#" data-filter="*">All&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href="#" data-filter=".marketing">Marketing&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href="#" data-filter=".webdesign">Design&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href="#" data-filter=".webdevelopment">Development&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div> &lt;!-- .isotope-filter_links --&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row portfolio_row"&gt;
+            &lt;div class="isotopeContainer"&gt;
+                &lt;!-- Portfolio Item --&gt;
+                &lt;div class="portfolio_grid no-padding isotopeSelector webdesign grid-item"&gt;
+                    &lt;figure class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio/bw1.jpg" alt="image"&gt;class="img-responsive center-block"/>
+                        &lt;figcaption&gt;
+                            &lt;a href="#" class="detail_portfolio">&lt;h3>Portfolio Item&lt;&gt;h3>&lt;/a&gt;
+                            &lt;a href="images/portfolio/bw1.jpg" class="fancybox open_img">&lt&gt;h5>&lt;&gt;
+                                    class="ion-ios-plus-empty">&lt;/i>&lt;/h5>&lt;/a&gt;
+                        &lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;!-- Portfolio Item --&gt;
+                &lt;div class="portfolio_grid no-padding isotopeSelector webdevelopment&gt;grid-item">
+                    &lt;figure class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio/bw2.jpg" alt="image"&gt;class="img-responsive center-block"/>
+                        &lt;figcaption&gt;
+                            &lt;a href="#" class="detail_portfolio">&lt;h3>Portfolio Item&lt;&gt;h3>&lt;/a&gt;
+                            &lt;a href="images/portfolio/bw2.jpg" class="fancybox open_img">&lt&gt;h5>&lt;&gt;
+                                    class="ion-ios-plus-empty">&lt;/i>&lt;/h5>&lt;/a&gt;
+                        &lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;!-- Portfolio Item --&gt;
+                &lt;div class="portfolio_grid no-padding isotopeSelector webdesign grid-item"&gt;
+                    &lt;figure class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio/bw3.jpg" alt="image"&gt;class="img-responsive center-block"/>
+                        &lt;figcaption&gt;
+                            &lt;a href="#" class="detail_portfolio">&lt;h3>Portfolio Item&lt;&gt;h3>&lt;/a&gt;
+                            &lt;a href="images/portfolio/bw3.jpg" class="fancybox open_img">&lt&gt;h5>&lt;&gt;
+                                    class="ion-ios-plus-empty">&lt;/i>&lt;/h5>&lt;/a&gt;
+                        &lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;!-- Portfolio Item --&gt;
+                &lt;div class="portfolio_grid no-padding isotopeSelector marketing grid-item"&gt;
+                    &lt;figure class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio/bw4.jpg" alt="image"&gt;class="img-responsive center-block"/>
+                        &lt;figcaption&gt;
+                            &lt;a href="#" class="detail_portfolio">&lt;h3>Portfolio Item&lt;&gt;h3>&lt;/a&gt;
+                            &lt;a href="images/portfolio/bw4.jpg" class="fancybox open_img">&lt&gt;h5>&lt;&gt;
+                                    class="ion-ios-plus-empty">&lt;/i>&lt;/h5>&lt;/a&gt;
+                        &lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;!-- Portfolio Item --&gt;
+                &lt;div class="portfolio_grid no-padding isotopeSelector webdesign grid-item"&gt;
+                    &lt;figure class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio/bw5.jpg" alt="image"&gt;class="img-responsive center-block"/>
+                        &lt;figcaption&gt;
+                            &lt;a href="#" class="detail_portfolio">&lt;h3>Portfolio Item&lt;&gt;h3>&lt;/a&gt;
+                            &lt;a href="images/portfolio/bw5.jpg" class="fancybox open_img">&lt&gt;h5>&lt;&gt;
+                                    class="ion-ios-plus-empty">&lt;/i>&lt;/h5>&lt;/a&gt;
+                        &lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;!-- Portfolio Item --&gt;
+                &lt;div class="portfolio_grid no-padding isotopeSelector webdesign grid-item"&gt;
+                    &lt;figure class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio/bw6.jpg" alt="image"&gt;class="img-responsive center-block"/>
+                        &lt;figcaption&gt;
+                            &lt;a href="#" class="detail_portfolio">&lt;h3>Portfolio Item&lt;&gt;h3>&lt;/a&gt;
+                            &lt;a href="images/portfolio/bw6.jpg" class="fancybox open_img">&lt&gt;h5>&lt;&gt;
+                                    class="ion-ios-plus-empty">&lt;/i>&lt;/h5>&lt;/a&gt;
+                        &lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;!-- Portfolio Item --&gt;
+                &lt;div class="portfolio_grid no-padding isotopeSelector webdevelopment&gt;grid-item">
+                    &lt;figure class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio/bw7.jpg" alt="image"&gt;class="img-responsive center-block"/>
+                        &lt;figcaption&gt;
+                            &lt;a href="#" class="detail_portfolio">&lt;h3>Portfolio Item&lt;&gt;h3>&lt;/a&gt;
+                            &lt;a href="images/portfolio/bw7.jpg" class="fancybox open_img">&lt&gt;h5>&lt;&gt;
+                                    class="ion-ios-plus-empty">&lt;/i>&lt;/h5>&lt;/a&gt;
+                        &lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;!-- Portfolio Item --&gt;
+                &lt;div class="portfolio_grid no-padding isotopeSelector webdevelopment&gt;grid-item">
+                    &lt;figure class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio/bw8.jpg" alt="image"&gt;class="img-responsive center-block"/>
+                        &lt;figcaption&gt;
+                            &lt;a href="#" class="detail_portfolio">&lt;h3>Portfolio Item&lt;&gt;h3>&lt;/a&gt;
+                            &lt;a href="images/portfolio/bw8.jpg" class="fancybox open_img">&lt&gt;h5>&lt;&gt;
+                                    class="ion-ios-plus-empty">&lt;/i>&lt;/h5>&lt;/a&gt;
+                        &lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;!-- Portfolio Item --&gt;
+                &lt;div class="portfolio_grid no-padding isotopeSelector marketing grid-item"&gt;
+                    &lt;figure class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio/bw9.jpg" alt="image"&gt;class="img-responsive center-block"/>
+                        &lt;figcaption&gt;
+                            &lt;a href="#" class="detail_portfolio">&lt;h3>Portfolio Item&lt;&gt;h3>&lt;/a&gt;
+                            &lt;a href="images/portfolio/bw9.jpg" class="fancybox open_img">&lt&gt;h5>&lt;&gt;
+                                    class="ion-ios-plus-empty">&lt;/i>&lt;/h5>&lt;/a&gt;
+                        &lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+                &lt;!-- Portfolio Item --&gt;
+                &lt;div class="portfolio_grid no-padding isotopeSelector marketing grid-item"&gt;
+                    &lt;figure class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio/bw10.jpg" alt="image"&gt;class="img-responsive center-block"/>
+                        &lt;figcaption&gt;
+                            &lt;a href="#" class="detail_portfolio">&lt;h3>Portfolio Item&lt;&gt;h3>&lt;/a&gt;
+                            &lt;a href="images/portfolio/bw10.jpg" class="fancybox open_img">&l&gt;;h5>&lt;&gt;
+                                    class="ion-ios-plus-empty">&lt;/i>&lt;/h5>&lt;/a&gt;
+                        &lt;/figcaption&gt;
+                    &lt;/figure&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+        </code>
+    </pre>
+</p>
+
+<h2 id="mt_newsletter">
+Newsletter Block
+</h2>
+<p>
+    <pre>
+        <code>
+&lt;section id="mt_newsletter"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-sm-5"&gt;
+                &lt;div class="started_heading text-center"&gt;
+                    &lt;h1>Newsletter&lt;/h1&gt;
+                    &lt;p>Register now with our newsletter and get latest updates available.&lt&gt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="col-sm-6"&gt;
+                &lt;div class="newsletter_form"&gt;
+                    &lt;form action=""&gt;
+                        &lt;input type="email"&gt;
+                        &lt;button type="submit" class="mt_btn_color">Send&lt;/button&gt;
+                    &lt;/form&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+        </code>
+    </pre>
+</p>
+
+
+<h2 id="mt_blog">
+Blog listing Block
+</h2>
+<p>
+    <pre>
+        <code>
+&lt;section id="blog_single_main_sec"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="row grid-masonry"&gt;
+            &lt;!--=========================&gt;
+                    Blog Content Sec
+            *===========================-->
+
+            &lt;!--=== Post Item ===--&gt;
+            &lt;div class="col-md-4 col-sm-12 grid-item"&gt;
+                &lt;div class="blog-post_wrapper"&gt;
+                    &lt;div class="blog-post-inner_wrapper"&gt;
+                        &lt;div class="blog-post-image"&gt;
+                            &lt;div class="effects clearfix effect-bounce"&gt;
+                                &lt;div class="img"&gt;
+                                    &lt;img src="images/blog-listing/post-1.jpg" alt="image"&gt;class="img-responsive center-block post_img" />
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="post-detail_container"&gt;
+                            &lt;div class="post-content"&gt;
+                                
+                                &lt;h3 class="post-title entry-title"&gt;
+                                    &lt;a href="blog-single.html"&gt;
+                                        Unde omnis iste natus error sit
+                                    &lt;/a&gt;
+                                &lt;/h3&gt;
+                                &lt;ul class="list-unstyled list-inline post-metadata"&gt;
+                                    &lt;li&gt;
+                                        &lt;i class="ion-ios-stopwatch-outline">&lt;/i> Mon,&gt;04-09-2015&nbsp;&nbsp;|
+                                    &lt;/li&gt;
+                                    &lt;li&gt;
+                                        &lt;i class="ion-ios-chatbubble-outline">&lt;/i>&nbsp&gt;
+                                        &lt;a href="#">Comments(1)&lt;/a&gt;
+                                    &lt;/li&gt;
+                                &lt;/ul&gt;
+                                &lt;p class="post-excerpt"&gt;
+                                    Sed ut perspiciatis unde omnis iste natus erro
+                                    sit voluiptatem accusantium doloremque ips
+                                    totam quae ab illo inventore.
+                                &lt;/p&gt;
+                                &lt;div class="view_detail"&gt;
+                                    &lt;a href="blog-single.html" class="mt_btn_color">Read mor&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!--=== End Post Item ===--&gt;
+
+            &lt;!--=========================&gt;
+                   End Blog main
+            *===========================-->
+        &lt;/div&gt;
+        &lt;!--=== Pagination ===--&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-md-12"&gt;
+                &lt;div class="text-center"&gt;
+                    &lt;ul class="pagination text-center"&gt;
+                        &lt;li class="prev">&lt;a href="#">&lt;&lt; Prev&lt;/a>&lt;/li&gt;
+                        &lt;li>&lt;a href="#">1&lt;/a>&lt;/li&gt;
+                        &lt;li class="active">&lt;a href="#">2&lt;/a>&lt;/li&gt;
+                        &lt;li>&lt;a href="#">3&lt;/a>&lt;/li&gt;
+                        &lt;li>&lt;a href="#">...&lt;/a>&lt;/li&gt;
+                        &lt;li>&lt;a href="#">10&lt;/a>&lt;/li&gt;
+                        &lt;li class="next">&lt;a href="#">Next >>&lt;/a>&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!--=== End Pagination ===--&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+        </code>
+    </pre>
+</p>
+
+<h2 id="mt_contact_section">
+Contact Block
+</h2>
+<p>
+    <pre>
+        <code>
+&lt;section id="mt_contact_section"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-sm-4"&gt;
+                &lt;div class="mt_address"&gt;
+                    121 King Street, Melbourne Victoria 3000 Australia
+                &lt;/div&gt;
+                &lt;div class="mt_phone">&lt;span>Call Us:&lt;/span>+61 3 8376 6284&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="col-sm-8"&gt;
+                &lt;div class="contact_form"&gt;
+                    &lt;h3>Stay in Touch&lt;/h3&gt;
+                    &lt;form id="contact_form"&gt;
+                        &lt;input type="text" name="name" id="name" placeholder="Your name"&gt;required>
+                        &lt;input type="email" name="email" id="email" placeholder="Your email"&gt;required>
+                        &lt;textarea cols="30" rows="5" name="message" id="message"&gt;placeholder="Your message"
+                                  required>&lt;/textarea&gt;
+                        &lt;button class="mt_btn_color" id="submit-btn">SEND MESSAGE&lt;spa&gt;
+                                class="mt_load">&lt;span>&lt;/span>&lt;/span>&lt;/button&gt;
+                        &lt;div id="msg">&lt;/div&gt;
+                    &lt;/form&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+        </code>
+    </pre>
+</p>
+<h2 id="mt_contact_section">
+Portfolio Detail Block
+</h2>
+<p>
+    <pre>
+        <code>
+&lt;section id="portfolio_details"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-xs-12 col-sm-8 col-sm-offset-2"&gt;
+                &lt;div class="portfolio_description"&gt;
+                    &lt;p>There are many variations of passages of Lorem Ipsum available, but&gt;the majority have fered altation in some form, by injmour, or randomised words which don't look even slightlievable. Iyoare going use a passage of Lorem Ipsum. &lt;/p&gt;
+                    &lt;p>There are many variations of passages of Lorem Ipsum available, but&gt;the majority.Passages of Lorem Ipsum available, but the majority. &lt;/p&gt;
+                    &lt;p>There are many variations of passages of Lorem Ipsum available, but&gt;the majority have fered altation in some form, by injmour, or randomised words which don't look even slightlievable. Iyoare going use a passage of Lorem Ipsum. There are many variations of passages of Lorem Ipsum available, but the majority.Passages of Lorem Ipsum available, but the majority. &lt;/p&gt;
+                    &lt;div class="portfolio_sidebar"&gt;
+                        &lt;ul&gt;
+                            &lt;li>&lt;div class="mt_sidebar_tx">Client: &lt;span>Jason and Co&gt;lt;/span>&lt;/div> &lt;/li&gt;
+                            &lt;li>&lt;div class="mt_sidebar_tx">Created By: &lt;span>Jhon Doe&l&gt;;/span>&lt;/div> &lt;/li&gt;
+                            &lt;li>&lt;div class="mt_sidebar_tx">Completed: &lt;span>20 Apr 201&gt;&lt;/span>&lt;/div> &lt;/li&gt;
+                            &lt;li>&lt;div class="mt_sidebar_tx">Tools: &lt;span>Photoshop,&gt;Indesign&lt;/span>&lt;/div> &lt;/li&gt;
+                            &lt;li>&lt;div class="mt_sidebar_tx">Visit: &lt;span>&lt;a&gt;href="http://www.google.com" class="mt_visit_link">www.google.com&lt;/a>&lt;/span>&lt;/div> &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+&lt;!--=======================================&gt;
+            Portfolio Gallery
+*=========================================--&gt;
+&lt;div id="portfolio_gallery"&gt;
+    &lt;div class="project_gallery"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="owl-carousel"&gt;
+                &lt;div class="item"&gt;
+                    &lt;div class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio-detail/05.jpg" alt="Project Image" /&gt;
+                        &lt;a href="images/portfolio-detail/05.jpg" class="fancybox"&gt;
+                            &lt;i class="ion-ios-plus-empty">&lt;/i&gt;
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="item"&gt;
+                    &lt;div class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio-detail/01.jpg" alt="Project Image" /&gt;
+                        &lt;a href="images/portfolio-detail/01.jpg" class="fancybox"&gt;
+                            &lt;i class="ion-ios-plus-empty">&lt;/i&gt;
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="item"&gt;
+                    &lt;div class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio-detail/02.jpg" alt="Project Image" /&gt;
+                        &lt;a href="images/portfolio-detail/02.jpg" class="fancybox"&gt;
+                            &lt;i class="ion-ios-plus-empty">&lt;/i&gt;
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="item"&gt;
+                    &lt;div class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio-detail/03.jpg" alt="Project Image" /&gt;
+                        &lt;a href="images/portfolio-detail/03.jpg" class="fancybox"&gt;
+                            &lt;i class="ion-ios-plus-empty">&lt;/i&gt;
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="item"&gt;
+                    &lt;div class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio-detail/04.jpg" alt="Project Image" /&gt;
+                        &lt;a href="images/portfolio-detail/04.jpg" class="fancybox"&gt;
+                            &lt;i class="ion-ios-plus-empty">&lt;/i&gt;
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="item"&gt;
+                    &lt;div class="portfolio_hover"&gt;
+                        &lt;img src="images/portfolio-detail/06.jpg" alt="Project Image" /&gt;
+                        &lt;a href="images/portfolio-detail/06.jpg" class="fancybox"&gt;
+                            &lt;i class="ion-ios-plus-empty">&lt;/i&gt;
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="portfolio_pagination"&gt;
+                &lt;div class="col-md-5 col-xs-5"&gt;
+                    &lt;div class="prev_post"&gt;
+                        &lt;a href="portfolio-detail.html"&gt;
+                            &lt;div class="prev_txt"&gt;
+                                &lt;span class="left_icon">&lt;i&gt;class="ion-ios-arrow-thin-left">&lt;/i>&lt;/span&gt;
+                                &lt;em>Previous&lt;/em&gt;
+                                &lt;p>3d Art Design&lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="col-xs-2"&gt;
+                    &lt;div class="all_portfolio"&gt;
+                        &lt;a href="index.html"&gt;
+                            &lt;i class="ion-ios-keypad-outline">&lt;/i&gt;
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-5 col-xs-5"&gt;
+                    &lt;div class="next"&gt;
+                        &lt;a href="portfolio-detail.html"&gt;
+                            &lt;div class="nxt_txt"&gt;
+                                &lt;span class="next_icon">&lt;i&gt;class="ion-ios-arrow-thin-right">&lt;/i>&lt;/span&gt;
+                                &lt;em>Next&lt;/em&gt;
+                                &lt;p>Abstract Art&lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--=======================================&gt;
+            End Portfolio Gallery
+*=========================================--&gt;
+        </code>
+    </pre>
+</p>
+
+<h2 id="mt_footer">
+Footer Block
+</h2>
+<p>
+    <pre>
+        <code>
+&lt;footer id="mt_footer"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-sm-6"&gt;
+                &lt;div class="copyright text-left"&gt;
+                    &lt;p>&copy; Zien. 2018 All Rights Reserved &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="col-sm-6"&gt;
+                &lt;div class="social_icons pull-right"&gt;
+                    &lt;a href="#" title="Facebook" target="_blank">&lt;i class="fa&gt;fa-facebook">&lt;/i>&lt;/a&gt;
+                    &lt;a href="#" title="Twitter" target="_blank">&lt;i class="fa fa-twitter">&gt;lt;/i>&lt;/a&gt;
+                    &lt;a href="#" title="Behance" target="_blank">&lt;i class="fa fa-behance">&gt;lt;/i>&lt;/a&gt;
+                    &lt;a href="#" title="LinkedIn+" target="_blank">&lt;i class="fa&gt;fa-linkedin">&lt;/i>&lt;/a&gt;
+                    &lt;a href="#" title="Pinterest" target="_blank">&lt;i class="fa&gt;fa-pinterest">&lt;/i>&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/footer&gt;
+        </code>
+    </pre>
+</p>
+
+
+
+
+<h2 id="mt_contact_form">
+Contact Form
+</h2>
+<p>Contact form is fully setup and only thing to make it functional is to put in your email address.<br>
+Inside <code>Main</code> folder open <code>sendmail.php</code> file and change the email address on line 11:</p>
+
+<p class="color">Notice: php files can only work on your server so upload the site to your server when testing.</p>
+
+<pre><span style="color:#999;">11</span> <span>$to_email = "</span><span class="color">youremail@domain.com</span><span>";</pre>
+
+
+<h1 id="using-avoir">Using Zien</h1>
+                  
+<h2 id="changing-logo">
+Changing logo
+</h2>
+<p>
+You can add the logo image in following code.
+<p><span style="color: red;">*</span>Note: The Resolution for logo should be 150x50px</p>
+</p>
+<pre>
+<code>
+&lt;div class="logo"&gt;
+&lt;a href="#"&gt;&lt;img class="text-highlight" src="images/logo.png" alt="Logo" &gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+                   
+</div>
+</div>
+</div>
+</div>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-1.11.2.min.js"></script>
+</body>
+</html>
+
